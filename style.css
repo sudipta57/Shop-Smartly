@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #ebe6e6;
+  color: black;
+}
+nav {
+  height: 10%;
+  width: 100%;
+  color: white;
+}
+nav h3 {
+  font-family: "Edu TAS Beginner", cursive;
+}
+nav h3 span {
+  color: #cc0c39;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+}
+#Container-1 {
+  height: 10%;
+}
+#Container-1p a {
+  text-decoration: none;
+  color: #cc0c39;
+}
+.discount {
+  background-color: #cc0c39;
+  border-radius: 2px;
+  
+}
+.GIF{
+    color: #cc0c39;
+    font-weight: bold;
+}
+.description{
+    font-weight: bold;
+}
+.product-btn{
+    background-color: #cc0c39;
+}
+.social-icons{
+color: rgb(243, 243, 243);
+}
+.footer-icon{
+  color: black;
+}
+
+/* ------media quaries-------------- */
+
+@media (max-width: 600px) {
+  nav {
+    height: 15%;
+    width: 100%;
+    color: white;
+  }
+  nav h3 {
+    font-family: "Edu TAS Beginner", cursive;
+    margin-left: 20vw;
+  }
+  #footer-title{
+  margin-right: 14vw;
+  }
+  #footer-icons{
+    margin-left: 29vw;
+  }
+}
