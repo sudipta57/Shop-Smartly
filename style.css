@@ -62,12 +62,15 @@ color: rgb(243, 243, 243);
   }
   nav h3 {
     font-family: "Edu TAS Beginner", cursive;
-    margin-left: 20vw;
+    margin-left: 25vw;
   }
   #footer-title{
   margin-right: 14vw;
   }
   #footer-icons{
     margin-left: 29vw;
+  }
+  #nav-search{
+    margin-left: 11vw;
   }
 }
